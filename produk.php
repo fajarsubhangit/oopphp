@@ -3,7 +3,7 @@ class Produk {
   public $judul = "judul";
   public $penulis = "penulis";
   public $penerbit = "penerbit";
-  public $harga = 0;
+  public $harga = null;
 
   //function di dalam class
   public function getLabel() {
